@@ -7,4 +7,4 @@ RUN apt-get -y update && \
 	echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections && \
 	apt-get -y update && \ 
 	apt-get install -y oracle-java8-installer
-CMD /bin/bash
+#CMD /bin/bash
